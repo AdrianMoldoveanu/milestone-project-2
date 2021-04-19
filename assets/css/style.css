@@ -95,3 +95,79 @@ h2 { display: block;
 .btn.wrong {
   color: rgb(245, 76, 9);
 }
+
+#score {
+    font-size: 1.5rem;
+    color: rgb(251, 255, 0);
+}
+
+#social a {
+     color:rgba(123, 29, 245, 0.849);
+     padding: 20px;
+     z-index: 1;
+ }
+
+ #social p {
+   color: rgb(96, 39, 230);
+   z-index: 1;
+}
+
+#social a:hover {
+    color: rgb(0, 26, 255);
+}
+
+#start-btn {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    background-color: rgba(2, 42, 219, 0.76);
+color: #fafafa;
+font-size: 180%;
+}
+
+#start-btn:hover {
+    background-color: rgba(12, 163, 233, 0.733);
+}
+
+#score-div {
+    overflow: hidden;
+    width: auto;
+    height: 350px;
+    font-family: "Graduate", sans-serif;
+    background: radial-gradient( circle, #0845a0f3, rgb(77, 230, 192))  no-repeat center center fixed;
+    background-color: #1d49d8f3;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(255, 255, 9);
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#score-div p {
+    font-size: 1.8rem;
+    padding-top: 20px;
+    color: #6bec38;
+}
+
+
+.hide {
+    display: none;
+}
+
+#time {
+    font-size: 2rem;
+    font-family: "Graduate", sans-serif;
+    color: #fafafa;
+    word-wrap: normal;
+}
+
+#next-btn {
+    font-size: 1.5rem;
+}
+
+.text-wrap {
+    background-color: rgba(10, 25, 240, 0.705);
+    border: 1px solid rgb(17, 146, 197);
+}
