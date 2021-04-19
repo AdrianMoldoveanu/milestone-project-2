@@ -1,6 +1,16 @@
+function startGame() {}
 
+function setNextQuestion() {}
 
+function showQuestion() {}
 
+function selectAnswer(e) {}
+
+function startTimer() {}
+
+function countTimer() {}
+
+function stopTimer() {}
 
 
 // questions array
