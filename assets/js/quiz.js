@@ -103,7 +103,13 @@ function selectAnswer(e) {
     }
 }
 
-function startTimer() {}
+function startTimer(){
+	// reset the running time to 0.
+	timer.runningTime = 0;
+		
+	// start the timer
+	timer.timer = setInterval(countTimer, 1000);
+}
 
 function countTimer() {}
 
