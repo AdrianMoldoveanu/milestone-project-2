@@ -50,7 +50,25 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex])
   }
 
-function showQuestion() {}
+//shows the question and answers
+function showQuestion(question) {
+    questionElement.innerText = question.question
+    //populate the answers by creating a button for each of them
+    question.answers.forEach(answer => {
+    const button = document.createElement('button')
+    button.innerText = answer.text
+    button.classList.add('btn')
+    //check if the answer is correct by adding a data attribute to the button
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+      }
+      else{
+        answer.wrong;
+      }
+      button.addEventListener('click', selectAnswer)
+      answerButtonsElement.appendChild(button)
+    })
+  }
 
 function selectAnswer(e) {}
 
