@@ -129,7 +129,11 @@ function countTimer () {
 	$("#time").html(minute+":"+second);
 }
 
-function stopTimer() {}
+//stop the timer and show the final time in results page
+function stopTimer() { 
+	clearInterval(timer.timer);
+  $("#final-time").html($("#time").html());
+   }
 
 
 // questions array
