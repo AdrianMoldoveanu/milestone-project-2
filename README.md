@@ -68,6 +68,36 @@
      3.  The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7 & Nokia5.
      
      4.  A large amount of testing was done to ensure that all pages were linking correctly.
+
+     ### Design 
+
+       #### Colour Scheme
+           
+           - The two main colours used are white and blue to impact better with the background image.
+       
+       #### Typography
+
+           - Vollkorn with fallback on Sans Serif is the main font used throughout the website. I find it both attractive and appropiate.
+           - Graduate with fallback on Sans Serif is used for the results display, timer and progress.The numbers look like football scoreboard numbers and goes well with the theme.
+
+       #### Imagery 
+
+           - As a background image I choose a cartoon football pitch to describe that the quiz is about football but in his essence is still a game. For the image I choose clean pictures with enough resolution to not appear pixelated on any screen size.
+     
+    ### Wireframes
+
+     -   Start Page Wireframe - [View](https://i.imgur.com/csdzecc.png)
+     
+     -   Main Page  Wireframe - [View](https://i.imgur.com/qmrQaxd.png)
+
+     -   Results Page  Wireframe - [View](https://i.imgur.com/13HlDpg.png)
+
+     -   Start Page Mobile Wireframe - [View](https://i.imgur.com/O8REOHc.png)
+
+     -   Main Page Mobile Wireframe - [View](https://i.imgur.com/IF8y6Hy.png)
+
+     -   Results Page Mobile Wireframe - [View](https://i.imgur.com/a2J6mXO.png)
+
     
 
 
