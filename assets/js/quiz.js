@@ -106,7 +106,7 @@ function selectAnswer(e) {
 		// question container is hidden
 		questionContainerElement.classList.add("hide");
 		// start button becomes restart button
-		startButton.innerText = "Try again?";
+		startButton.innerText = "Restart?";
 		startButton.classList.remove("hide");
 	}
 

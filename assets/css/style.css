@@ -132,7 +132,7 @@ font-size: 180%;
 #score-div {
     overflow: hidden;
     width: auto;
-    height: 350px;
+    height: auto;
     font-family: "Graduate", sans-serif;
     background: radial-gradient( circle, #0845a0f3, rgb(77, 230, 192))  no-repeat center center fixed;
     background-color: #1d49d8f3;
@@ -146,11 +146,14 @@ font-size: 180%;
 }
 
 #score-div p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-top: 20px;
-    color: #6bec38;
+    color: #f53b0d;
+    text-shadow: -2px 2px 0px #fa2a05
 }
-
+#score-div i {
+    color: gold;
+}
 
 .hide {
     display: none;
