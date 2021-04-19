@@ -134,13 +134,15 @@
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator and Beautify Tool JS Validator Services were used to validate every part of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://i.imgur.com/twBoI5t.png) 
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://i.imgur.com/AKbaz6z.png)
 
 -   [Beautify Tool JS Validator](https://beautifytools.com/javascript-validator.php) - [Results](https://i.imgur.com/JIHHddo.png)
+    -114	32	Expected a conditional expression and instead saw an assignment - Error because the statement is a simple if one and not a if/else statement therefore else condition is not necessary.
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -148,37 +150,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable title and landing page to guide them to the start quiz button.
-        2. The main points are made immediately with the combination of background image and gaming related terms.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable title and landing page to guide them to the start quiz button. 
+        2. The main points are made immediately with the combination of background image and football related terms.
+        [View here] (https://i.imgur.com/5nLccSB.png)
     
     2. As a First Time Visitor, I want to be able to easily start the quiz.
 
-        1. The start button can be easily found under the landing page. 
+        1. The start button can be easily found under the landing page.
         2. The colour choice for the start button is to contrast well with the background image on all screen sizes.
+        [View here] (https://i.imgur.com/l17bCKM.png) 
 
     3. As a First Time Visitor, I want to be able to easily see the question and the available answers.
         1. After the start button has been clicked the user is greeted with the quiz page which contain a timer, the question and 4 possible answers.
+        [View here] (https://i.imgur.com/HNmbJqP.png) 
     
     4. As a First Time Visitor, I want to be able to easily select and answer and reveal the next question.
         1. All answer buttons are clickable and change colour on hover.
+        [View here] (https://i.imgur.com/HNmbJqP.png) 
         2. After an answer is clicked the next button will reveal.
+        [View here] (https://i.imgur.com/HNmbJqP.png) 
         3. After the next button is clicked the next question and available answers will load.
+        [View here] (https://i.imgur.com/HNmbJqP.png) 
 
     5. As a First Time Visitor, I want to be able to easily see my progress and how many questions I answered.
         1. The progress is displayed under the answers so users can keep track.
         2. The progress displays the number of questions answered from the total questions available.
         3. The progress will update with each question answered.
+        [View here] (https://i.imgur.com/tXwTqSY.png)
 
     6. As a First Time Visitor, I want to be able to easily see my results after I answered all the questions.
        1. After the last available question has been answered the user is greeted with the result page.
-       2. The result page contains a message,  how many correct answers the user had, the percentage of correct answers and the total time it took to complete the quiz. 
+       2. The result page contains a message,  how many correct answers the user had, the percentage of correct answers and the total time it took to complete the quiz.
+       [View here] (https://i.imgur.com/PRAjccg.png) 
 
     7. As a First Time Visitor, I want to be able to easily restart the quiz.
        1. The restart button is located under the results page.
        2. On click the user is taken at the start of the quiz.
+       [View here] (https://i.imgur.com/o2s8EAc.png)
 
     8. As a First Time Visitor, I want to  to locate their social media links to see their followings on social media to determine how trusted and known they are. 
-      1. The footer contains links to the organisations Facebook, Steam and LinkedIn profiles.             
+      1. The footer contains links to the organisations Facebook, Steam and LinkedIn profiles. 
+      [View here] (https://i.imgur.com/TQyp8be.png)            
 
     #### Returning Visitor Goals
 
