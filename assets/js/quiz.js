@@ -111,7 +111,23 @@ function startTimer(){
 	timer.timer = setInterval(countTimer, 1000);
 }
 
-function countTimer() {}
+function countTimer () {
+	timer.runningTime++;
+	// calculate the minutes and seconds from running time
+	let minute = Math.floor(timer.runningTime / 60);
+    let second = timer.runningTime % 60;   
+	
+    if (minute == 0){
+        minute = "00";
+    } else if ((minute > 0) && (minute < 10)){
+        minute = "0" + minute;
+    }
+    if (second < 10) {
+	   second = "0" + second;
+	}
+	// display the running time
+	$("#time").html(minute+":"+second);
+}
 
 function stopTimer() {}
 
