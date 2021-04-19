@@ -3,13 +3,13 @@
  [View the live project here.](https://adrianmoldoveanu.github.io/milestone-project-2/)
 
 ### Description
-
- -This is my milestone project website for Code Institute. 
- -It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
- -The project is a quiz based on Uefa Champions League history.
- -It contains 10 questions with different levels of difficulty, a timer and a progress bar.
- -Uppon completion the user is greeted with a results page and the option to restart the quiz.
-
+<ul>
+ <li>This is my milestone project website for Code Institute.</li> 
+ <li>It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.</li> 
+ <li>The project is a quiz based on Uefa Champions League history.</li>
+ <li>It contains 10 questions with different levels of difficulty, a timer and a progress bar.</li>
+ <li>Uppon completion the user is greeted with a results page and the option to restart the quiz.</li>
+</ul>
 ## User Experience (UX)
 
     ###  User Stories
