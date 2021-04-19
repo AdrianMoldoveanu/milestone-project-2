@@ -44,7 +44,11 @@ function startGame() {
     document.getElementById('all-questions').innerHTML = questions.length; 
   }
 
-function setNextQuestion() {}
+//function to load the next question when next button is clicked
+function setNextQuestion() {
+    resetState()
+    showQuestion(shuffledQuestions[currentQuestionIndex])
+  }
 
 function showQuestion() {}
 
