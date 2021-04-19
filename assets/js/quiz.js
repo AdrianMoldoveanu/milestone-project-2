@@ -128,6 +128,12 @@ function setStatusClass(element, correct) {
     }
   }
 
+  //remove the classes when the status is reset
+function clearStatusClass(element) {
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
+  }
+
 function startTimer(){
 	// reset the running time to 0.
 	timer.runningTime = 0;
