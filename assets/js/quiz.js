@@ -24,7 +24,25 @@ nextButton.addEventListener('click', () => {
     document.getElementById('current-question').innerHTML = currentQuestion;
   })
 
-function startGame() {}
+//starts the game
+function startGame() {
+    startTimer()
+    ready.classList.add('hide')
+    progress.classList.remove('hide')  
+    startButton.classList.add('hide')
+    scoreDiv.classList.add("hide")
+    //randomises the questions
+    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    currentQuestionIndex = 0;
+    currentQuestion = 1;//starts the progress from 1
+    questionContainerElement.classList.remove('hide');
+    setNextQuestion();
+    //sets the score to 0 at start of quiz
+    score = 0;
+    document.getElementById('current-question').innerHTML = currentQuestion;
+    document.getElementById('all-questions2').innerHTML = questions.length;
+    document.getElementById('all-questions').innerHTML = questions.length; 
+  }
 
 function setNextQuestion() {}
 
