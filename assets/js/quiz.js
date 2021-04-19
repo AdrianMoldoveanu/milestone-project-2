@@ -13,7 +13,16 @@ let score = 0;
 let shuffledQuestions, currentQuestionIndex
 let timer = {};
 
+//button to start the quiz on click and load the first question
+startButton.addEventListener('click', startGame)
 
+//button to set next question
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++;
+    setNextQuestion();
+    currentQuestion++; 
+    document.getElementById('current-question').innerHTML = currentQuestion;
+  })
 
 function startGame() {}
 
