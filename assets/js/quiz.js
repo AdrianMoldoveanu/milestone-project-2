@@ -64,7 +64,7 @@ function showQuestion(question) {
 		if (answer.correct) {
 			button.dataset.correct = answer.correct;
 		} else {
-			answer.wrong;
+		 button.dataset.wrong =	answer.wrong;
 		}
 		button.addEventListener("click", selectAnswer);
 		answerButtonsElement.appendChild(button);
@@ -112,8 +112,9 @@ function selectAnswer(e) {
 
 	//increments the score when correct answer is selected
 	if (selectedButton.dataset = correct) {
-		score++; //+1
+	   score++;
 	}
+  
 	// Show the score and percentage of correct answers
 	document.getElementById("right-answers").innerHTML = score;
 	document.getElementById("answers-percent").innerHTML = ((100 * score) / questions.length).toFixed(0);
