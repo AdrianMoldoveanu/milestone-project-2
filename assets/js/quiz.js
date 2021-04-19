@@ -97,9 +97,16 @@ function selectAnswer(e) {
       stopTimer()// stops the timer
       scoreDiv.classList.remove('hide')// results page is loaded
       progress.classList.add('hide');// progress bar is hidden
+      
       questionContainerElement.classList.add('hide');// question container is hidden
+      
       startButton.innerText = 'Try again?'// start button becomes restart button
       startButton.classList.remove('hide')
+    }
+  
+    //increments the score when correct answer is selected
+    if (selectedButton.dataset = correct) {
+      score++; //+1
     }
 }
 
