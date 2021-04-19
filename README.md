@@ -245,4 +245,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  > remote: Compressing objects: 100% (8/8), done.
  > remove: Total 10 (delta 1), reused 10 (delta 1)
  > Unpacking objects: 100% (10/10), done.
- ```       
+ ``` 
+
+
+## Credits
+
+### Code
+
+-   The full-screen  image code came from Google Images.
+
+-   The source code comes from Web dev Simplified tutorial (https://codepen.io/WebDevSimplified/pen/xNvaaz). Although I have modified the code heavily and simplified it in some instances the source is his tutorial.
+
+-   The timer was implemented following James quick tutorial on building a quiz app (https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript).
+
+-   [Bootstrap 4.7](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [StackOverflow](https://stackoverflow.com/) : Was used for the footer of the page.
+
+-  
+
+-   [Code Institute](https://codeinstitute.net/): The sample README.md was used as reference to create my README.md
+
+### Content
+
+-   All content was written by the developer.
+
+### Media
+
+-   All Images were found on Google Images.
+
+### Acknowledgements
+
+-   My girlfriend for listening to my frustrations when things weren't working and always knowing what to say to keep me believing I can do this.
+
+-   My coordinator from The Learning People for support and ideas.
+
+-   Code Institute for their support and amazing  modules.
