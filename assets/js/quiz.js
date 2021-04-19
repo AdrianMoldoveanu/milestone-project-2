@@ -70,6 +70,16 @@ function showQuestion(question) {
     })
   }
 
+  //resets the question and  answers to a default state
+function resetState() {
+    clearStatusClass(document.body)
+    nextButton.classList.add('hide')
+    //if there is a child inside the answer buttons we remove it
+    while (answerButtonsElement.firstChild) {
+      answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+    }
+  }
+
 function selectAnswer(e) {}
 
 function startTimer() {}
