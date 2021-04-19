@@ -1,3 +1,20 @@
+// constants and variables needed
+
+const startButton = document.getElementById('start-btn')
+const progress = document.getElementById('progress')
+const nextButton = document.getElementById('next-btn')
+const questionContainerElement = document.getElementById('question-container')
+const questionElement = document.getElementById('question')
+const answerButtonsElement = document.getElementById('answer-buttons')
+const counter = document.getElementById('counter')
+const ready = document.getElementById('landing-page')
+const scoreDiv = document.getElementById('score-div')
+let score = 0; 
+let shuffledQuestions, currentQuestionIndex
+let timer = {};
+
+
+
 function startGame() {}
 
 function setNextQuestion() {}
