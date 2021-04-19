@@ -27,11 +27,11 @@ nextButton.addEventListener("click", () => {
 
 //starts the game
 function startGame() {
-	startTimer();
-	ready.classList.add("hide");
-	progress.classList.remove("hide");
-	startButton.classList.add("hide");
-	scoreDiv.classList.add("hide");
+	startTimer();// starts the quiz timer
+	ready.classList.add("hide"); // hides the landing page
+	progress.classList.remove("hide");// shows the progress bar
+	startButton.classList.add("hide"); // hides the start button
+	scoreDiv.classList.add("hide"); //hides the results page
 	//randomises the questions
 	shuffledQuestions = questions.sort(() => Math.random() - 0.5);
 	currentQuestionIndex = 0;
@@ -63,11 +63,9 @@ function showQuestion(question) {
 		//check if the answer is correct by adding a data attribute to the button
 		if (answer.correct) {
 			button.dataset.correct = answer.correct;
-		} else {
-		 button.dataset.wrong =	answer.wrong;
 		}
-		button.addEventListener("click", selectAnswer);
-		answerButtonsElement.appendChild(button);
+			button.addEventListener("click", selectAnswer);
+			answerButtonsElement.appendChild(button);
 	});
 }
 
@@ -111,7 +109,7 @@ function selectAnswer(e) {
 	}
 
 	//increments the score when correct answer is selected
-	if (selectedButton.dataset = correct) {
+	if (selectedButton.dataset == correct) {
 	   score++;
 	}
   

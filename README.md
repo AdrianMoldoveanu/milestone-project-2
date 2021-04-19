@@ -136,12 +136,12 @@
 
 The W3C Markup Validator, W3C CSS Validator and Beautify Tool JS Validator Services were used to validate every part of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://i.imgur.com/twBoI5t.png) 
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://i.imgur.com/twBoI5t.png) -No errors.
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://i.imgur.com/AKbaz6z.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://i.imgur.com/AKbaz6z.png) - No errors.
 
--   [Beautify Tool JS Validator](https://beautifytools.com/javascript-validator.php) - [Results](https://i.imgur.com/JIHHddo.png)
-    -114	32	Expected a conditional expression and instead saw an assignment - Error because the statement is a simple if one and not a if/else statement therefore else condition is not necessary.
+-   [Beautify Tool JS Validator](https://beautifytools.com/javascript-validator.php) - [Results](https://i.imgur.com/T5hLcf3.png) - No errors.
+    
 
 
 ### Testing User Stories from User Experience (UX) Section
