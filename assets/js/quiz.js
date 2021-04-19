@@ -258,5 +258,50 @@ const questions = [
         { text: 'Filippo Inzaghi', correct: false },
         { text: 'Predrag Mijatovic', correct: true }
       ]
-    }
+    },
+    {
+        question: 'Which club is the most successful in the tournament history, having won it 13 times?',
+        answers: [
+          { text: 'Liverpool', correct: false },
+          { text: 'Real Madrid', correct: true },
+          { text: 'AC Milan', correct: false },
+          { text: 'FC Barcelona', correct: false }
+        ]
+      },
+    {
+        question: 'Which Serbian was the first from his country to win the Champions League, in 2008?',
+        answers: [
+          { text: 'Dusan Tadic', correct: false },
+          { text: 'Nemanja Matic', correct: false },
+          { text: 'Boris Radunovic', correct: false },
+          { text: 'Nemanja Vidić', correct: true }
+        ]
+    },
+    {
+        question: 'Who scored four goals against Real Madrid in the first leg of the 2012/2013 semi-final?',
+        answers: [
+          { text: 'Toni Kroos', correct: false },
+          { text: 'Mario Gómez', correct: false },
+          { text: 'R. Lewandowski', correct: true },
+          { text: 'Arjen Robben', correct: false }
+        ]
+      },
+      {
+        question: 'Who was the first manager win the Champions League, the World Cup and the European Championship?',
+        answers: [
+          { text: 'Jose Mourinho', correct: false },
+          { text: 'Vicente del Bosque', correct: true },
+          { text: 'Pep Guardiola', correct: false },
+          { text: 'Joachim Löw', correct: false }
+        ]
+    },
+    {
+        question: 'I set a record for Champions League appearances with 177, for Real Madrid and Porto. Who am I?',
+        answers: [
+          { text: 'Cristiano Ronaldo', correct: false },
+          { text: 'Iker Casillas', correct: true },
+          { text: 'Nani', correct: false },
+          { text: 'Pepe', correct: false }
+        ]
+    }    
   ]
