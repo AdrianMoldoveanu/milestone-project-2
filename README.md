@@ -292,6 +292,6 @@ The W3C Markup Validator, W3C CSS Validator and Beautify Tool JS Validator Servi
 
 -   My girlfriend for listening to my frustrations when things weren't working and always knowing what to say to keep me believing I can do this.
 
--   My coordinator from The Learning People for support and ideas.
+-   My coordinator Stuart Crang from The Learning People for support and ideas.
 
 -   Code Institute for their support and amazing  modules.
