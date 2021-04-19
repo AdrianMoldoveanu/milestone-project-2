@@ -80,7 +80,28 @@ function resetState() {
     }
   }
 
-function selectAnswer(e) {}
+//selects the answer
+function selectAnswer(e) {
+    const selectedButton = e.target //the button we clicked on
+    const correct = selectedButton.dataset.correct //check if the answer we selected is correct
+    //create an array from the answers buttons children to set the status based on either is a correct answer or not
+    Array.from(answerButtonsElement.children).forEach(button => {
+      setStatusClass(button, button.dataset.correct)
+    })
+    //shows our next button if we are not at the last question
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+      nextButton.classList.remove('hide')
+    } 
+    //if we are at the last question
+    else {
+      stopTimer()// stops the timer
+      scoreDiv.classList.remove('hide')// results page is loaded
+      progress.classList.add('hide');// progress bar is hidden
+      questionContainerElement.classList.add('hide');// question container is hidden
+      startButton.innerText = 'Try again?'// start button becomes restart button
+      startButton.classList.remove('hide')
+    }
+}
 
 function startTimer() {}
 
