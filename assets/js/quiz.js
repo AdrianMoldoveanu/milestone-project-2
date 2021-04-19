@@ -108,7 +108,25 @@ function selectAnswer(e) {
     if (selectedButton.dataset = correct) {
       score++; //+1
     }
+      // Show the score and percentage of correct answers
+  document.getElementById('right-answers').innerHTML = score; 
+  document.getElementById('answers-percent').innerHTML = ((100 * score)/questions.length).toFixed(0);
+  //prevent multiclicking 
+  document.getElementById('answer-buttons').classList.add('no-click');
 }
+
+// sets the status class for the correct answers
+function setStatusClass(element, correct) {
+    clearStatusClass(element)
+    //add the correct class which is colour green
+    if (correct) {
+      element.classList.add('correct')
+    }
+    ////add the wrong class which is colour red 
+    else {
+      element.classList.add('wrong')
+    }
+  }
 
 function startTimer(){
 	// reset the running time to 0.
