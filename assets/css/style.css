@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+} 
+
+body {
+     background: url("../images/cl15.jpg") no-repeat center center fixed;
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 400;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fafafa;
+  margin: auto;
+}
+hr { 
+    background-color: #fafafa;
+    }
+
+.text-center {
+    text-align: center!important;
+}
+
+h1 {display: block;
+    font-size: 3.25rem;
+    text-shadow: -5px 5px 0px #09186b;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+h2 { display: block;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    text-shadow: -5px 5px 0px #09186b
+}
+
+.overlay {
+    background-color: #1039ee5b;
+}
+
+#progress {
+    font-family: "Graduate", sans-serif;
+    font-size: 1.25rem;
+    color: #fafafa;
+
+}
+
+#question-container {
+    width: auto;
+    height: auto;
+    border: 1px solid #fafafa;
+}
+
+#question {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: rgba(11, 26, 240, 0.705);
+    border: 1px solid #09186b;
+    
+}
+
+#answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2 auto) ;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    width: 130px;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color:rgba(10, 25, 240, 0.705);
+    color: #fff;
+    
+}
+
+.btn:hover {
+    color: #1bd8e6;
+}
+
+.btn.correct {
+  color: rgb(9, 212, 9);
+}
+
+.btn.wrong {
+  color: rgb(245, 76, 9);
+}
