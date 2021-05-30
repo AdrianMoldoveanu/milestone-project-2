@@ -109,7 +109,7 @@ function selectAnswer(e) {
 	}
 
 	//increments the score when correct answer is selected
-	if (selectedButton.dataset == correct) {
+	if (correct) {
 	   score++;
 	}
   
