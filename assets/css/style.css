@@ -54,7 +54,7 @@ h3 {
 
 #question {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #fff;
     background-color: rgba(11, 26, 240, 0.705);
     border: 1px solid #09186b;
@@ -70,9 +70,9 @@ h3 {
 
 .btn {
     margin: 5px;
-    width: 130px;
-    height: 60px;
-    font-size: 1.1rem;
+    width: 150px;
+    height: 75px;
+    font-size: 1.25rem;
     background-color:rgba(10, 25, 240, 0.705);
     color: #fff;
     
@@ -111,13 +111,14 @@ h3 {
 }
 
 #start-btn {
+    margin-top: -0.25rem !important;
     text-align: center;
     width: auto;
     height: auto;
     margin: auto;
     background-color: rgba(2, 42, 219, 0.76);
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 #start-btn:hover {
@@ -137,11 +138,11 @@ h3 {
     background-size: cover;
     color: rgb(238, 238, 222);
     margin: auto;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #score-div p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-top: 5px;
     color: #f1eae8;
     text-shadow: -2px 2px 0px #0509fa
@@ -155,7 +156,7 @@ h3 {
 }
 
 #time {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     font-family: "Graduate", sans-serif;
     color: #fafafa;
     word-wrap: normal;
