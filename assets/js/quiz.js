@@ -209,7 +209,7 @@ const questions = [{
 		text: "Ronaldo",
 		correct: false
 	}, {
-		text: "Zlatan Ibrahimovic",
+		text: "Z. Ibrahimovic",
 		correct: false
 	}, {
 		text: "Clarence Seedorf",
@@ -362,7 +362,7 @@ const questions = [{
 		text: "Mario Gómez",
 		correct: false
 	}, {
-		text: "R. Lewandowski",
+		text: "Lewandowski",
 		correct: true
 	}, {
 		text: "Arjen Robben",
@@ -374,7 +374,7 @@ const questions = [{
 		text: "Jose Mourinho",
 		correct: false
 	}, {
-		text: "Vicente del Bosque",
+		text: "V. del Bosque",
 		correct: true
 	}, {
 		text: "Pep Guardiola",
