@@ -25,19 +25,19 @@ hr {
 }
 
 h1 {display: block;
-    font-size: 3.25rem;
+    font-size: 3.1rem;
     text-shadow: -5px 5px 0px #09186b;
 }
 
 h3 {
     font-size: 2rem;
-    padding: 10px;
+    padding: 5px;
     letter-spacing: 1.5px;
 }
 
 h2 { display: block;
     letter-spacing: 1px;
-    font-size: 3rem;
+    font-size: 2.35rem;
     text-shadow: -5px 5px 0px #09186b
 }
 
@@ -75,10 +75,10 @@ h2 { display: block;
 }
 
 .btn {
-    margin: 10px;
+    margin: 5px;
     width: 130px;
     height: 60px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color:rgba(10, 25, 240, 0.705);
     color: #fff;
     
@@ -117,12 +117,13 @@ h2 { display: block;
 }
 
 #start-btn {
+    text-align: center;
     width: auto;
     height: auto;
-    margin-bottom: 30px;
+    margin: auto;
     background-color: rgba(2, 42, 219, 0.76);
 color: #fafafa;
-font-size: 180%;
+font-size: 1.5rem;
 }
 
 #start-btn:hover {
@@ -132,27 +133,27 @@ font-size: 180%;
 #score-div {
     overflow: hidden;
     width: auto;
-    height: auto;
+    height: 420px;
     font-family: "Graduate", sans-serif;
-    background: radial-gradient( circle, #0845a0f3, rgb(77, 230, 192))  no-repeat center center fixed;
+    background: radial-gradient( circle, #185dc4f3, rgb(143, 77, 230))  no-repeat center center fixed;
     background-color: #1d49d8f3;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: rgb(255, 255, 9);
+  color: rgb(238, 238, 222);
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 #score-div p {
-    font-size: 2rem;
-    padding-top: 20px;
-    color: #f53b0d;
-    text-shadow: -2px 2px 0px #fa2a05
+    font-size: 1.5rem;
+    padding-top: 5px;
+    color: #f1eae8;
+    text-shadow: -2px 2px 0px #0509fa
 }
 #score-div i {
-    color: gold;
+    color: rgb(255, 0, 0);
 }
 
 .hide {
@@ -160,17 +161,24 @@ font-size: 180%;
 }
 
 #time {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Graduate", sans-serif;
     color: #fafafa;
     word-wrap: normal;
 }
 
 #next-btn {
-    font-size: 1.5rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: rgba(2, 42, 219, 0.76);
+color: #fafafa;
+font-size: 1.3rem;
 }
 
 .text-wrap {
     background-color: rgba(10, 25, 240, 0.705);
     border: 1px solid rgb(17, 146, 197);
 }
+
