@@ -36,25 +36,14 @@ h3 {
     letter-spacing: 1.5px;
 }
 
-h2 {
-    font-weight: 700;
-    color: #e9eaf5;
-    letter-spacing: 1px;
-    font-size: 2.5rem;
-    text-shadow: -2px 2px 0px #09186b
-}
-
 .overlay {
-    background-color: #1039ee5b;
-    
-    
+    background-color: #1039ee5b;   
 }
 
 #progress {
     font-family: "Graduate", sans-serif;
     font-size: 1.25rem;
     color: #fafafa;
-
 }
 
 #question-container {
@@ -94,11 +83,11 @@ h2 {
 }
 
 .btn.correct {
-  color: rgb(9, 212, 9);
+    color: rgb(9, 212, 9);
 }
 
 .btn.wrong {
-  color: rgb(245, 76, 9);
+    color: rgb(245, 76, 9);
 }
 
 #score {
@@ -107,14 +96,14 @@ h2 {
 }
 
 #social a {
-     color:rgba(123, 29, 245, 0.849);
-     padding: 15px;
-     z-index: 1;
+    color:rgba(123, 29, 245, 0.849);
+    padding: 15px;
+    z-index: 1;
  }
 
  #social p {
-   color: rgb(96, 39, 230);
-   z-index: 1;
+    color: rgb(96, 39, 230);
+    z-index: 1;
 }
 
 #social a:hover {
@@ -127,8 +116,8 @@ h2 {
     height: auto;
     margin: auto;
     background-color: rgba(2, 42, 219, 0.76);
-color: #fafafa;
-font-size: 1.5rem;
+    color: #fafafa;
+    font-size: 1.5rem;
 }
 
 #start-btn:hover {
@@ -178,8 +167,8 @@ font-size: 1.5rem;
     height: auto;
     margin-bottom: 10px;
     background-color: rgba(2, 42, 219, 0.76);
-color: #fafafa;
-font-size: 1.3rem;
+    color: #fafafa;
+    font-size: 1.3rem;
 }
 
 .text-wrap {
