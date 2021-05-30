@@ -9,15 +9,13 @@ body {
      background: url("../images/cl15.jpg") no-repeat center center fixed;
     font-family: "Vollkorn", sans-serif;
     font-weight: 400;
-    overflow: hidden;
+    overflow-x: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: #fafafa;
-    margin: auto;
-    height: auto;
-    width: auto;
+    margin: auto;  
 }
 hr { 
     background-color: #fafafa;
@@ -48,8 +46,8 @@ h2 {
 
 .overlay {
     background-color: #1039ee5b;
-    margin: auto;
-    height: auto;
+    
+    
 }
 
 #progress {
