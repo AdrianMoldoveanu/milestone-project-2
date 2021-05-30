@@ -42,7 +42,7 @@ h3 {
 
 #progress {
     font-family: "Graduate", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: #fafafa;
 }
 
@@ -54,7 +54,7 @@ h3 {
 
 #question {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
     background-color: rgba(11, 26, 240, 0.705);
     border: 1px solid #09186b;
@@ -70,9 +70,9 @@ h3 {
 
 .btn {
     margin: 5px;
-    width: 150px;
-    height: 75px;
-    font-size: 1.25rem;
+    width: 125px;
+    height: 60px;
+    font-size: 1.1rem;
     background-color:rgba(10, 25, 240, 0.705);
     color: #fff;
     
@@ -166,10 +166,11 @@ h3 {
     text-align: center;
     width: auto;
     height: auto;
+    margin-top: -1rem !important;
     margin-bottom: 10px;
     background-color: rgba(2, 42, 219, 0.76);
     color: #fafafa;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .text-wrap {
