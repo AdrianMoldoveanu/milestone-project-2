@@ -9,12 +9,15 @@ body {
      background: url("../images/cl15.jpg") no-repeat center center fixed;
     font-family: "Vollkorn", sans-serif;
     font-weight: 400;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fafafa;
-  margin: auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fafafa;
+    margin: auto;
+    height: auto;
+    width: auto;
 }
 hr { 
     background-color: #fafafa;
@@ -45,6 +48,8 @@ h2 {
 
 .overlay {
     background-color: #1039ee5b;
+    margin: auto;
+    height: auto;
 }
 
 #progress {
@@ -105,7 +110,7 @@ h2 {
 
 #social a {
      color:rgba(123, 29, 245, 0.849);
-     padding: 20px;
+     padding: 15px;
      z-index: 1;
  }
 
@@ -135,17 +140,17 @@ font-size: 1.5rem;
 #score-div {
     overflow: hidden;
     width: auto;
-    height: 420px;
+    height: auto;
     font-family: "Graduate", sans-serif;
     background: radial-gradient( circle, #185dc4f3, rgb(143, 77, 230))  no-repeat center center fixed;
     background-color: #1d49d8f3;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: rgb(238, 238, 222);
-  margin: auto;
-  font-size: 1.3rem;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(238, 238, 222);
+    margin: auto;
+    font-size: 1.3rem;
 }
 
 #score-div p {
