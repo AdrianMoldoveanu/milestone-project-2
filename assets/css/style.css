@@ -53,8 +53,9 @@ h3 {
 }
 
 #question {
+    margin-top: -1rem !important;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #fff;
     background-color: rgba(11, 26, 240, 0.705);
     border: 1px solid #09186b;
@@ -62,6 +63,7 @@ h3 {
 }
 
 #answer-buttons {
+    margin-top: -1rem !important;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2 auto) ;
@@ -70,9 +72,9 @@ h3 {
 
 .btn {
     margin: 5px;
-    width: 125px;
-    height: 60px;
-    font-size: 1.1rem;
+    width: 100px;
+    height: 55px;
+    font-size: 1rem;
     background-color:rgba(10, 25, 240, 0.705);
     color: #fff;
     
@@ -142,6 +144,7 @@ h3 {
 }
 
 #score-div p {
+    margin-bottom: -1.5rem !important;
     font-size: 1.6rem;
     padding-top: 5px;
     color: #f1eae8;
